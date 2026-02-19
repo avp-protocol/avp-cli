@@ -23,28 +23,18 @@
 
 ## Installation
 
-### macOS
+### pip (Recommended)
 
 ```bash
-brew install avp-protocol/tap/avp
-```
-
-### Linux
-
-```bash
-curl -fsSL https://avp.dev/install.sh | sh
-```
-
-### Windows
-
-```powershell
-winget install avp-protocol.avp
+pip install avp-cli
 ```
 
 ### From Source
 
 ```bash
-cargo install avp-cli
+git clone https://github.com/avp-protocol/avp-cli.git
+cd avp-cli
+pip install -e .
 ```
 
 ## Quick Start
